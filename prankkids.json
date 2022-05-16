@@ -1,0 +1,663 @@
+[
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 3000,
+   "attribute" : "WIND",
+   "card_images" : [
+      {
+         "id" : 81997228,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/81997228.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/81997228.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.35",
+         "cardmarket_price" : "0.20",
+         "coolstuffinc_price" : "0.99",
+         "ebay_price" : "0.99",
+         "tcgplayer_price" : "0.22"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN019",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "2.74",
+         "set_rarity" : "Secret Rare",
+         "set_rarity_code" : "(ScR)"
+      },
+      {
+         "set_code" : "MGED-EN113",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "def" : 3000,
+   "desc" : "\"Prank-Kids Lampsies\" + \"Prank-Kids Dropsies\" + \"Prank-Kids Fansies\"\r\nMust be Fusion Summoned. (Quick Effect): You can Tribute this card; destroy all monsters your opponent controls. If this card in your possession is sent to your GY by your opponent's card: You can target 1 non-Fusion Monster in your GY; Special Summon it. You can only use this effect of \"Prank-Kids Battle Butler\" once per turn.",
+   "id" : 81997228,
+   "level" : 10,
+   "name" : "Prank-Kids Battle Butler",
+   "race" : "Thunder",
+   "type" : "Fusion Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 2000,
+   "attribute" : "FIRE",
+   "card_images" : [
+      {
+         "id" : 43886072,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/43886072.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/43886072.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.40",
+         "cardmarket_price" : "0.19",
+         "coolstuffinc_price" : "1.99",
+         "ebay_price" : "0.99",
+         "tcgplayer_price" : "0.19"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN021",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.83",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN115",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "desc" : "2 \"Prank-Kids\" monsters\r\nA \"Prank-Kids\" monster this card points to gains 1000 ATK. During your opponent's turn (Quick Effect): You can Tribute this card, then target 2 \"Prank-Kids\" cards with different names in your GY, except Link Monsters; add them to your hand, also \"Prank-Kids\" monsters you control cannot be destroyed by your opponent's card effects this turn. You can only use this effect of \"Prank-Kids Bow-Wow-Bark\" once per turn.",
+   "id" : 43886072,
+   "linkmarkers" : [
+      "Right",
+      "Bottom"
+   ],
+   "linkval" : 2,
+   "name" : "Prank-Kids Bow-Wow-Bark",
+   "race" : "Pyro",
+   "type" : "Link Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 2000,
+   "attribute" : "WIND",
+   "card_images" : [
+      {
+         "id" : 17382973,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/17382973.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/17382973.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "1.39",
+         "cardmarket_price" : "0.41",
+         "coolstuffinc_price" : "11.99",
+         "ebay_price" : "0.99",
+         "tcgplayer_price" : "0.60"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN020",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "13.4",
+         "set_rarity" : "Secret Rare",
+         "set_rarity_code" : "(ScR)"
+      },
+      {
+         "set_code" : "MGED-EN114",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "desc" : "2 \"Prank-Kids\" monsters\r\nIf this card is Link Summoned: You can add 1 \"Prank-Kids\" Spell/Trap from your Deck to your hand. You can Tribute this card, then target 2 \"Prank-Kids\" cards with different names in your GY, except Link Monsters; add them to your hand. You can only use each effect of \"Prank-Kids Dodo-Doodle-Doo\" once per turn.",
+   "id" : 17382973,
+   "linkmarkers" : [
+      "Left",
+      "Bottom"
+   ],
+   "linkval" : 2,
+   "name" : "Prank-Kids Dodo-Doodle-Doo",
+   "race" : "Thunder",
+   "type" : "Link Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 1000,
+   "attribute" : "WATER",
+   "card_images" : [
+      {
+         "id" : 55725117,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/55725117.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/55725117.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.35",
+         "cardmarket_price" : "0.28",
+         "coolstuffinc_price" : "1.99",
+         "ebay_price" : "0.99",
+         "tcgplayer_price" : "0.48"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN016",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "3.53",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN108",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "def" : 1000,
+   "desc" : "If this card is sent to the GY as material for the Fusion or Link Summon of a \"Prank-Kids\" monster: You can gain 1000 LP, then you can Special Summon 1 \"Prank-Kids\" monster from your hand or Deck in Defense Position, except \"Prank-Kids Dropsies\". You can only use this effect of \"Prank-Kids Dropsies\" once per turn.",
+   "id" : 55725117,
+   "level" : 2,
+   "name" : "Prank-Kids Dropsies",
+   "race" : "Aqua",
+   "type" : "Effect Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 0,
+   "attribute" : "WIND",
+   "card_images" : [
+      {
+         "id" : 81119816,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/81119816.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/81119816.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "2.13",
+         "cardmarket_price" : "0.30",
+         "coolstuffinc_price" : "0.79",
+         "ebay_price" : "2.25",
+         "tcgplayer_price" : "0.45"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN014",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.76",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN109",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "def" : 2000,
+   "desc" : "If this card is sent to the GY as material for the Fusion or Link Summon of a \"Prank-Kids\" monster: You can send 1 \"Prank-Kids\" card from your Deck to the GY, except \"Prank-Kids Fansies\", then you can Special Summon 1 \"Prank-Kids\" monster from your hand or Deck in Defense Position, except \"Prank-Kids Fansies\". You can only use this effect of \"Prank-Kids Fansies\" once per turn.",
+   "id" : 81119816,
+   "level" : 1,
+   "name" : "Prank-Kids Fansies",
+   "race" : "Thunder",
+   "type" : "Effect Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 1500,
+   "attribute" : "FIRE",
+   "card_images" : [
+      {
+         "id" : 18236002,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/18236002.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/18236002.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.49",
+         "cardmarket_price" : "0.34",
+         "coolstuffinc_price" : "1.49",
+         "ebay_price" : "0.99",
+         "tcgplayer_price" : "0.48"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN015",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "2.96",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN107",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "def" : 500,
+   "desc" : "If this card is sent to the GY as material for the Fusion or Link Summon of a \"Prank-Kids\" monster: You can inflict 500 damage to your opponent, then you can Special Summon 1 \"Prank-Kids\" monster from your hand or Deck in Defense Position, except \"Prank-Kids Lampsies\". You can only use this effect of \"Prank-Kids Lampsies\" once per turn.",
+   "id" : 18236002,
+   "level" : 3,
+   "name" : "Prank-Kids Lampsies",
+   "race" : "Pyro",
+   "type" : "Effect Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 1000,
+   "attribute" : "EARTH",
+   "banlist_info" : {
+      "ban_ocg" : "Limited",
+      "ban_tcg" : "Limited"
+   },
+   "card_images" : [
+      {
+         "id" : 25725326,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/25725326.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/25725326.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.39",
+         "cardmarket_price" : "0.14",
+         "coolstuffinc_price" : "0.79",
+         "ebay_price" : "0.99",
+         "tcgplayer_price" : "0.15"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "MGED-EN116",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      },
+      {
+         "set_code" : "PHRA-EN049",
+         "set_name" : "Phantom Rage",
+         "set_price" : "1.21",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      }
+   ],
+   "desc" : "1 Level 4 or lower \"Prank-Kids\" monster\r\nYou can only Link Summon \"Prank-Kids Meow-Meow-Mu\" once per turn. If a \"Prank-Kids\" monster you control would Tribute itself to activate its effect during your opponent's turn, you can banish this card you control or from your GY instead. You can only use this effect of \"Prank-Kids Meow-Meow-Mu\" once per turn.",
+   "id" : 25725326,
+   "linkmarkers" : [
+      "Bottom"
+   ],
+   "linkval" : 1,
+   "name" : "Prank-Kids Meow-Meow-Mu",
+   "race" : "Rock",
+   "type" : "Link Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "card_images" : [
+      {
+         "id" : 79059098,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/79059098.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/79059098.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.44",
+         "cardmarket_price" : "0.18",
+         "coolstuffinc_price" : "0.99",
+         "ebay_price" : "1.79",
+         "tcgplayer_price" : "0.26"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN025",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.71",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN118",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "desc" : "During the Main Phase: Fusion Summon 1 \"Prank-Kids\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material. For the rest of this turn after this card resolves, you cannot Normal or Special Summon monsters, except \"Prank-Kids\" monsters.",
+   "id" : 79059098,
+   "name" : "Prank-Kids Pandemonium",
+   "race" : "Quick-Play",
+   "type" : "Spell Card"
+},
+{
+   "archetype" : "Prank-Kids",
+   "card_images" : [
+      {
+         "id" : 16269385,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/16269385.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/16269385.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "1.71",
+         "cardmarket_price" : "2.50",
+         "coolstuffinc_price" : "1.99",
+         "ebay_price" : "1.90",
+         "tcgplayer_price" : "2.10"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN023",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "11.08",
+         "set_rarity" : "Secret Rare",
+         "set_rarity_code" : "(ScR)"
+      },
+      {
+         "set_code" : "MGED-EN045",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Premium Gold Rare",
+         "set_rarity_code" : "(PG)"
+      },
+      {
+         "set_code" : "MGED-EN045",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Premium Gold Rare",
+         "set_rarity_code" : "(PG)"
+      }
+   ],
+   "desc" : "When this card is activated: You can add 1 \"Prank-Kids\" monster from your Deck to your hand. Once per turn, if you Fusion Summon a \"Prank-Kids\" Fusion Monster (except during the Damage Step): You can have all monsters you control gain 500 ATK (even if this card leaves the field). Once per turn, if you Link Summon a \"Prank-Kids\" Link Monster (except during the Damage Step): You can have all monsters your opponent controls lose 500 ATK (even if this card leaves the field). You can only activate 1 \"Prank-Kids Place\" per turn.",
+   "id" : 16269385,
+   "name" : "Prank-Kids Place",
+   "race" : "Field",
+   "type" : "Spell Card"
+},
+{
+   "archetype" : "Prank-Kids",
+   "card_images" : [
+      {
+         "id" : 15447747,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/15447747.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/15447747.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.97",
+         "cardmarket_price" : "0.33",
+         "coolstuffinc_price" : "0.79",
+         "ebay_price" : "1.99",
+         "tcgplayer_price" : "0.86"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN026",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.52",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      }
+   ],
+   "desc" : "During the Main Phase: You can activate this effect; immediately after this effect resolves, Link Summon 1 \"Prank-Kids\" Link Monster using \"Prank-Kids\" monsters you control as material. When an opponent's monster declares an attack: You can banish this card from your GY; shuffle any number of \"Prank-Kids\" cards from your GY into the Deck, and if you do, that attacking monster loses 100 ATK for each card shuffled, until the end of this turn. You can only use each effect of \"Prank-Kids Plan\" once per turn.",
+   "id" : 15447747,
+   "name" : "Prank-Kids Plan",
+   "race" : "Continuous",
+   "type" : "Trap Card"
+},
+{
+   "archetype" : "Prank-Kids",
+   "card_images" : [
+      {
+         "id" : 43664494,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/43664494.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/43664494.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "2.71",
+         "cardmarket_price" : "0.18",
+         "coolstuffinc_price" : "1.99",
+         "ebay_price" : "1.64",
+         "tcgplayer_price" : "0.24"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN024",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "2.84",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN117",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "desc" : "You can discard 1 \"Prank-Kids\" card; Special Summon 1 \"Prank-Kids Token\" (Pyro/FIRE/Level 1/ATK 0/DEF 0), but it cannot be Tributed. During your End Phase: You can target 3 \"Prank-Kids\" cards in your GY, except \"Prank-Kids Pranks\"; shuffle all 3 into the Deck, then draw 1 card. You can only use each effect of \"Prank-Kids Pranks\" once per turn.",
+   "id" : 43664494,
+   "name" : "Prank-Kids Pranks",
+   "race" : "Continuous",
+   "type" : "Spell Card"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 3000,
+   "attribute" : "WATER",
+   "card_images" : [
+      {
+         "id" : 70875686,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/70875686.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/70875686.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "6.21",
+         "cardmarket_price" : "9.36",
+         "coolstuffinc_price" : "9.99",
+         "ebay_price" : "4.75",
+         "tcgplayer_price" : "5.63"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN022",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.79",
+         "set_rarity" : "Secret Rare",
+         "set_rarity_code" : "(ScR)"
+      }
+   ],
+   "desc" : "2+ \"Prank-Kids\" monsters\r\nMust be Link Summoned. (Quick Effect): You can Tribute this card; destroy all Spells and Traps your opponent controls. If this card in your possession is sent to your GY by your opponent's card: You can target 1 card in your GY, except a Link Monster; add it to your hand. You can only use this effect of \"Prank-Kids Rip-Roarin-Roaster\" once per turn.",
+   "id" : 70875686,
+   "linkmarkers" : [
+      "Top",
+      "Left",
+      "Bottom",
+      "Right"
+   ],
+   "linkval" : 4,
+   "name" : "Prank-Kids Rip-Roarin-Roaster",
+   "race" : "Aqua",
+   "type" : "Link Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 2000,
+   "attribute" : "FIRE",
+   "card_images" : [
+      {
+         "id" : 18514525,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/18514525.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/18514525.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.97",
+         "cardmarket_price" : "0.18",
+         "coolstuffinc_price" : "0.79",
+         "ebay_price" : "1.49",
+         "tcgplayer_price" : "0.18"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN017",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.19",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN111",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "def" : 0,
+   "desc" : "2 \"Prank-Kids\" monsters\r\nIf this card is Fusion Summoned: You can have this card lose 1000 ATK this turn, also it can attack directly this turn. You can Tribute this card, then target 2 \"Prank-Kids\" non-Fusion Monsters with different names in your GY; Special Summon them, but they cannot attack this turn. You can only use each effect of \"Prank-Kids Rocket Ride\" once per turn.",
+   "id" : 18514525,
+   "level" : 5,
+   "name" : "Prank-Kids Rocket Ride",
+   "race" : "Pyro",
+   "type" : "Fusion Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 1500,
+   "attribute" : "EARTH",
+   "card_images" : [
+      {
+         "id" : 31440046,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/31440046.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/31440046.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.25",
+         "cardmarket_price" : "0.15",
+         "coolstuffinc_price" : "0.79",
+         "ebay_price" : "1.97",
+         "tcgplayer_price" : "0.20"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "MGED-EN110",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      },
+      {
+         "set_code" : "SAST-EN022",
+         "set_name" : "Savage Strike",
+         "set_price" : "1.11",
+         "set_rarity" : "Common",
+         "set_rarity_code" : "(C)"
+      },
+      {
+         "set_code" : "SOFU-ENSE4",
+         "set_name" : "Soul Fusion Special Edition",
+         "set_price" : "2.06",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      }
+   ],
+   "def" : 1500,
+   "desc" : "If this card is sent to the GY as material for the Fusion or Link Summon of a \"Prank-Kids\" monster: You can banish 1 card from your hand, and if you do, draw 1 card, then, you can Special Summon 1 \"Prank-Kids\" monster from your hand or Deck in Defense Position, except \"Prank-Kids Rocksies\". You can only use this effect of \"Prank-Kids Rocksies\" once per turn.",
+   "id" : 31440046,
+   "level" : 4,
+   "name" : "Prank-Kids Rocksies",
+   "race" : "Rock",
+   "type" : "Effect Monster"
+},
+{
+   "archetype" : "Prank-Kids",
+   "atk" : 2000,
+   "attribute" : "WATER",
+   "card_images" : [
+      {
+         "id" : 44509529,
+         "image_url" : "https://storage.googleapis.com/ygoprodeck.com/pics/44509529.jpg",
+         "image_url_small" : "https://storage.googleapis.com/ygoprodeck.com/pics_small/44509529.jpg"
+      }
+   ],
+   "card_prices" : [
+      {
+         "amazon_price" : "0.65",
+         "cardmarket_price" : "0.15",
+         "coolstuffinc_price" : "0.39",
+         "ebay_price" : "1.04",
+         "tcgplayer_price" : "0.17"
+      }
+   ],
+   "card_sets" : [
+      {
+         "set_code" : "HISU-EN018",
+         "set_name" : "Hidden Summoners",
+         "set_price" : "1.54",
+         "set_rarity" : "Super Rare",
+         "set_rarity_code" : "(SR)"
+      },
+      {
+         "set_code" : "MGED-EN112",
+         "set_name" : "Maximum Gold: El Dorado",
+         "set_price" : "0",
+         "set_rarity" : "Rare",
+         "set_rarity_code" : "(R)"
+      }
+   ],
+   "def" : 0,
+   "desc" : "2 \"Prank-Kids\" monsters\r\nIf your \"Prank-Kids\" monster attacks, your opponent cannot activate cards or effects until the end of the Damage Step. During your opponent's turn (Quick Effect): You can Tribute this card, then target 2 \"Prank-Kids\" non-Fusion Monsters with different names in your GY; Special Summon them. They cannot be destroyed by battle this turn. You can only use this effect of \"Prank-Kids Weather Washer\" once per turn.",
+   "id" : 44509529,
+   "level" : 5,
+   "name" : "Prank-Kids Weather Washer",
+   "race" : "Aqua",
+   "type" : "Fusion Monster"
+}
+]
