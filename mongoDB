@@ -63,6 +63,10 @@ db.prankkids.replaceOne(
 
 db.prankkids.find({ "name" : "Prank-Kids Battle Butler" })
 
+db.prankkids.find({ "attribute" : "WIND" })
+
+db.prankkids.find({ "linkval" : { $lte : 2 } })
+
 db.prankkids.find({ "type" : {$regex: /^Lin/ } })
 
 db.prankkids.find({ "atk" : { $gt : 4000 } })

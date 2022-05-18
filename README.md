@@ -88,22 +88,32 @@ db.prankkids.replaceOne(
 ![](capturas/captura8.png)
 
 ### 6. Consultas
-* 5 consultas de datos simples
-   * Consulta todos los documentos cuyo valor "name" es igual a "Prank-Kids Battle Butler"
+**5 consultas de datos simples**
+* Consulta los documentos cuyo valor "name" es igual a "Prank-Kids Battle Butler"
 ```
 db.prankkids.find({ "name" : "Prank-Kids Battle Butler" })
 ```
 ![](capturas/captura9.png)
-
+* Consulta los documentos cuyo atributo sea "WIND"
+```
+db.prankkids.find({ "attribute" : "WIND" })
+```
+![](capturas/captura12.png)
+* Consulta los documentos cuyo valor "linkval" sea mayor que menor o igual a 2
+```
+db.prankkids.find({ "linkval" : { $lte : 2 } })
+``` 
+![](capturas/captura13.png)
+* Consulta Los documentos cuyo tipo empiece por "Lin"
 ```
 db.prankkids.find({ "type" : {$regex: /^Lin/ } })
 ```
 ![](capturas/captura10.png)
-
+* Consulta los documentos cuyo ataque sea superior a 2000
 ```
-db.prankkids.find({ "atk" : { $gt : 4000 } })
+db.prankkids.find({ "atk" : { $gt : 2000 } })
 ```
 ![](capturas/captura11.png)
-* 3 consultas con arrays 
-* 3 consultas con documentos embebidos
-* Consulta de agrupación
+**3 consultas con arrays**
+**3 consultas con documentos embebidos**
+**Consulta de agrupación**
