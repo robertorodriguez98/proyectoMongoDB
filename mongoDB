@@ -78,3 +78,11 @@ db.prankkids.find( { "linkmarkers": { $all: ["Right", "Bottom"] } } )
 
 db.prankkids.find( { "linkmarkers": { $size: 1 } } )
 
+
+db.prankkids.find( { "card_prices.amazon_price":  "0.40" } )
+
+db.prankkids.find({"card_sets.set_name":"Hidden Summoners"})
+
+db.prankkids.find({"card_sets.set_rarity":"Rare"})
+
+

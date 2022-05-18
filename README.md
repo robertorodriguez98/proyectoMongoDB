@@ -128,4 +128,16 @@ db.prankkids.find( { "linkmarkers": { $all: ["Right", "Bottom"] } } )
 db.prankkids.find( { "linkmarkers": { $size: 1 } } )
 ```
 **3 consultas con documentos embebidos**
+* Consulta los documentos cuyo precio de amazon es igual a 0.40
+```
+db.prankkids.find( { "card_prices.amazon_price":  "0.40" } )
+```
+* Consulta los documentos que pertenecen al set de nombre Hidden Summoners
+```
+db.prankkids.find({"card_sets.set_name":"Hidden Summoners"})
+```
+* Consulta los documentos cuya rareza de uno de sus sets es Rare
+```
+db.prankkids.find({"card_sets.set_rarity":"Rare"})
+```
 **Consulta de agrupación**
