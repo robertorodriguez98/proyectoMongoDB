@@ -7,7 +7,8 @@ Para ello, se debe ejecutar el siguiente comando en la terminal:
 mongoimport --db=yugioh --collection=prankkids --jsonArray --type json --file=prankkids.json
 ```
 ![](capturas/captura1.png)
-### Insertar varios documentos utilizando los dos métodos de inserción de MongoDB
+### 3. Insertar varios documentos utilizando los dos métodos de inserción de MongoDB
+Los métodos son `insertOne` y `insertMany`. Se utilizan de la siguiente manera:
 ```
 db.prankkids.insertOne(
    {
@@ -51,3 +52,14 @@ db.inventory.insertMany([
  ])
 ```
 ![](capturas/captura3.png)
+### 4. Elimina varios documentos utilizando los dos métodos de eliminación de MongoDB
+Los métodos son `deleteOne` y `deleteMany`. Se utilizan de la siguiente manera:
+```
+db.prankkids.deleteOne({ attribute : "WATER" })
+```
+![](capturas/captura4.png)
+```
+db.prankkids.deleteMany({ attribute : "WATER" })
+```
+![](capturas/captura5.png)
+Donde deleteOne borra la primera coincidencia, y deleteMany borra todas las coincidencias.
