@@ -115,5 +115,17 @@ db.prankkids.find({ "atk" : { $gt : 2000 } })
 ```
 ![](capturas/captura11.png)
 **3 consultas con arrays**
+* Consulta los documentos que contengan en el array linkmarkers el valor "Bottom" como uno de sus elementos
+```
+db.prankkids.find( { "linkmarkers": "Bottom" } )
+```
+* Consulta los documentos que contengan en el array linkmarkers los valores "Right" y "Bottom" en cualquier orden
+```
+db.prankkids.find( { "linkmarkers": { $all: ["Right", "Bottom"] } } )
+```
+* Consulta los documentos cuyo array linkmarkers tenga exactamente 1 elemento
+```
+db.prankkids.find( { "linkmarkers": { $size: 1 } } )
+```
 **3 consultas con documentos embebidos**
 **Consulta de agrupación**

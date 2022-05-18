@@ -70,3 +70,11 @@ db.prankkids.find({ "linkval" : { $lte : 2 } })
 db.prankkids.find({ "type" : {$regex: /^Lin/ } })
 
 db.prankkids.find({ "atk" : { $gt : 4000 } })
+
+
+db.prankkids.find( { "linkmarkers": "Bottom" } )
+
+db.prankkids.find( { "linkmarkers": { $all: ["Right", "Bottom"] } } )
+
+db.prankkids.find( { "linkmarkers": { $size: 1 } } )
+
