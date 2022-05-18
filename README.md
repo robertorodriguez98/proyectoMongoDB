@@ -7,3 +7,47 @@ Para ello, se debe ejecutar el siguiente comando en la terminal:
 mongoimport --db=yugioh --collection=prankkids --jsonArray --type json --file=prankkids.json
 ```
 ![](capturas/captura1.png)
+### Insertar varios documentos utilizando los dos métodos de inserción de MongoDB
+```
+db.prankkids.insertOne(
+   {
+      "archetype" : "Prank-Kids",
+      "atk" : 150,
+      "attribute" : "FIRE",
+      "desc" : "Carta de pruebas.",
+      "id" : 1,
+      "linkval" : 2,
+      "name" : "carta 1",
+      "race" : "Pyro",
+      "type" : "Link Monster"
+   }
+)
+```
+![](capturas/captura2.png)
+```
+db.inventory.insertMany([
+    {
+        "archetype" : "Prank-Kids",
+        "atk" : 3000,
+        "attribute" : "WATER",
+        "desc" : "Carta de pruebas 2.",
+        "id" : 1,
+        "linkval" : 2,
+        "name" : "carta 2",
+        "race" : "Pyro",
+        "type" : "Link Monster"
+     },
+     {
+        "archetype" : "Prank-Kids",
+        "atk" : 150,
+        "attribute" : "AIR",
+        "desc" : "Carta de pruebas 3.",
+        "id" : 1,
+        "linkval" : 3,
+        "name" : "carta 3",
+        "race" : "Pyro",
+        "type" : "Link Monster"
+     }
+ ])
+```
+![](capturas/captura3.png)
