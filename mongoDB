@@ -60,3 +60,9 @@ db.prankkids.replaceOne(
    { "name": "carta reemplazada"}
 )
 
+
+db.prankkids.find({ "name" : "Prank-Kids Battle Butler" })
+
+db.prankkids.find({ "type" : {$regex: /^Lin/ } })
+
+db.prankkids.find({ "atk" : { $gt : 4000 } })

@@ -86,3 +86,24 @@ db.prankkids.replaceOne(
 )
 ```
 ![](capturas/captura8.png)
+
+### 6. Consultas
+* 5 consultas de datos simples
+   * Consulta todos los documentos cuyo valor "name" es igual a "Prank-Kids Battle Butler"
+```
+db.prankkids.find({ "name" : "Prank-Kids Battle Butler" })
+```
+![](capturas/captura9.png)
+
+```
+db.prankkids.find({ "type" : {$regex: /^Lin/ } })
+```
+![](capturas/captura10.png)
+
+```
+db.prankkids.find({ "atk" : { $gt : 4000 } })
+```
+![](capturas/captura11.png)
+* 3 consultas con arrays 
+* 3 consultas con documentos embebidos
+* Consulta de agrupación
