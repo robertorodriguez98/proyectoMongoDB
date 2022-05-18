@@ -42,3 +42,21 @@ db.inventory.insertMany([
 db.prankkids.deleteMany({ attribute : "WATER" })
 
 db.prankkids.deleteOne( { attribute : "WATER" } )
+
+
+
+db.prankkids.updateOne(
+   { "attribute" : "FIRE" },
+   { $set : { "atk" : 2000 } }
+)
+
+db.prankkids.updateMany(
+   { attribute : "FIRE" },
+   { $set : { atk : 2000 } }
+)
+
+db.prankkids.replaceOne(
+   { "name": "Prank-Kids Rocket Ride"},
+   { "name": "carta reemplazada"}
+)
+

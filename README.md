@@ -63,3 +63,26 @@ db.prankkids.deleteMany({ attribute : "WATER" })
 ```
 ![](capturas/captura5.png)
 Donde deleteOne borra la primera coincidencia, y deleteMany borra todas las coincidencias.
+### 5. Actualiza varios documentos utilizando los tres métodos de actualización de MongoDB
+Los métodos son `updateOne`, `updateMany` y `replaceOne`. Se utilizan de la siguiente manera:
+```
+db.prankkids.updateOne(
+   { "attribute" : "FIRE" },
+   { $set : { "atk" : 2000 } }
+)
+```
+![](capturas/captura6.png)
+```
+db.prankkids.updateMany(
+   { attribute : "FIRE" },
+   { $set : { atk : 2000 } }
+)
+```
+![](capturas/captura7.png)
+```
+db.prankkids.replaceOne(
+   { "name": "Prank-Kids Rocket Ride"},
+   { "name": "carta reemplazada"}
+)
+```
+![](capturas/captura8.png)
