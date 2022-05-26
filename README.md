@@ -89,55 +89,73 @@ db.prankkids.replaceOne(
 
 ### 6. Consultas
 **5 consultas de datos simples**
-* Consulta los documentos cuyo valor "name" es igual a "Prank-Kids Battle Butler"
+* Consulta los documentos cuyo valor "name" es igual a "Prank-Kids Battle Butler", mostrándolo de manera legible
 ```
-db.prankkids.find({ "name" : "Prank-Kids Battle Butler" })
+db.prankkids.find({ "name" : "Prank-Kids Battle Butler" }).pretty()
 ```
 ![](capturas/captura9.png)
-* Consulta los documentos cuyo atributo sea "WIND"
+* Consulta el primer documento cuyo atributo sea "WIND"
 ```
-db.prankkids.find({ "attribute" : "WIND" })
+db.prankkids.find({ "attribute" : "WIND" }).limit(1)
 ```
-![](capturas/captura12.png)
+![](capturas/captura10.png)
 * Consulta los documentos cuyo valor "linkval" sea mayor que menor o igual a 2
 ```
 db.prankkids.find({ "linkval" : { $lte : 2 } })
 ``` 
-![](capturas/captura13.png)
+![](capturas/captura11.png)
 * Consulta Los documentos cuyo tipo empiece por "Lin"
 ```
 db.prankkids.find({ "type" : {$regex: /^Lin/ } })
 ```
-![](capturas/captura10.png)
-* Consulta los documentos cuyo ataque sea superior a 2000
+![](capturas/captura12.png)
+* Consulta los documentos cuyo ataque sea superior a 2500, ordenándolo por ataque de forma descendente
 ```
-db.prankkids.find({ "atk" : { $gt : 2000 } })
+db.prankkids.find({ "atk" : { $gt : 2500 } }).sort({"atk":1})
 ```
-![](capturas/captura11.png)
+![](capturas/captura13.png)
 **3 consultas con arrays**
 * Consulta los documentos que contengan en el array linkmarkers el valor "Bottom" como uno de sus elementos
 ```
 db.prankkids.find( { "linkmarkers": "Bottom" } )
 ```
+![](capturas/captura14.png)
 * Consulta los documentos que contengan en el array linkmarkers los valores "Right" y "Bottom" en cualquier orden
 ```
 db.prankkids.find( { "linkmarkers": { $all: ["Right", "Bottom"] } } )
 ```
+![](capturas/captura15.png)
 * Consulta los documentos cuyo array linkmarkers tenga exactamente 1 elemento
 ```
 db.prankkids.find( { "linkmarkers": { $size: 1 } } )
 ```
+![](capturas/captura16.png)
 **3 consultas con documentos embebidos**
 * Consulta los documentos cuyo precio de amazon es igual a 0.40
 ```
 db.prankkids.find( { "card_prices.amazon_price":  "0.40" } )
 ```
-* Consulta los documentos que pertenecen al set de nombre Hidden Summoners
+![](capturas/captura17.png)
+* Consulta cuántos documentos pertenecen al set de nombre Hidden Summoners
 ```
-db.prankkids.find({"card_sets.set_name":"Hidden Summoners"})
+db.prankkids.find({"card_sets.set_name":"Hidden Summoners"}).count()
 ```
+![](capturas/captura18.png)
 * Consulta los documentos cuya rareza de uno de sus sets es Rare
 ```
 db.prankkids.find({"card_sets.set_rarity":"Rare"})
 ```
+![](capturas/captura19.png)
 **Consulta de agrupación**
+* lista todos los tipos de carta de hay, así como el número de cartas que hay de cada uno
+```
+db.prankkids.aggregate([
+   {
+      $group: {
+         _id: "$type",
+         count: { $count: { } }
+      }
+   }
+])
+```
+![](capturas/captura20.png)
